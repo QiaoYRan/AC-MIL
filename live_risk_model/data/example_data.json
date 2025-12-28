@@ -1,0 +1,32 @@
+[
+  {
+    "room_id": "room_001",
+    "anchor_id": "anchor_001",
+    "user_num": 3,
+    "user_sequences": [
+      {
+        "user_id": "u001",
+        "if_anchor": false,
+        "sequence": [
+          {"timestamp": 1710000001, "action_name": "enter", "action_name_id": 1, "action_desc": "", "desc_id": 0, "timeslot_5min": 1, "if_anchor": 0}
+        ]
+      },
+      {
+        "user_id": "u002",
+        "if_anchor": false,
+        "sequence": [
+          {"timestamp": 1710000002, "action_name": "enter", "action_name_id": 1, "action_desc": "", "desc_id": 0, "timeslot_5min": 1, "if_anchor": 0}
+        ]
+      },
+      {
+        "user_id": "anchor_001",
+        "if_anchor": true,
+        "sequence": [
+          {"timestamp": 1710000000, "action_name": "start", "action_name_id": 2, "action_desc": "", "desc_id": 0, "timeslot_5min": 1, "if_anchor": 1}
+        ]
+      }
+    ],
+    "timeslot_num": 3,
+    "label": 1
+  }
+] 
