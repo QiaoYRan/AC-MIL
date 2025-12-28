@@ -1,8 +1,14 @@
+# Live Risk Model
+
+项目结构：
+
+```
 live_risk_model/
-├── main.py # 主程序，加载数据、训练和测试
-├── model.py # 包含Transformer模型 + 多种注意力机制
-├── dataset.py # 模拟 patch grid 构建和数据处理
-├── utils.py # 一些辅助函数（如位置编码等）
-├── config.py # 配置参数（超参设置）
+├── main.py              # main program, load data, train and test
+├── model.py             # X-former model + multiple attention mechanisms
+├── dataset.py           # simulate patch grid construction and data processing
+├── utils.py             # some helper functions
+├── config.py            # config setup
 └── data/
-    └── example_data.json  # 示例直播间 JSON 数据 
+    └── example_data.json  # example live streaming room JSON data
+```
