@@ -1,5 +1,6 @@
 # AC-MIL
 Official implementation for AC-MIL
+[![DOI](https://zenodo.org/badge/1114444392.svg)](https://doi.org/10.5281/zenodo.18074892)
 
 ## Notice
 Due to the **high sensitivity of risk control business data**, the official complete dataset and full-version code are currently undergoing the internal corporate review and approval process.
